@@ -6,12 +6,14 @@ marp: true
 # A Normal Connection
 
 When you normaly connect to a website/server you send a get request (or any other HTTP request) to the server. The server then processes that request and sends a response back to you.
+<img src="./proxy_normal.svg" />
 
 ---
 
 # A Proxy Connection
 
 When you connect to a website/server via a proxy your actually sending the HTTP request to the proxy server. The porxy server may modify this request and then send it off to the real website your trying to connect to. The real server than sends the response to the proxy server instead of you. The proxy server may modify this response and then send it back to you.
+<img src="./proxy.svg" />
 
 ---
 
